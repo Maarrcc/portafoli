@@ -2,18 +2,18 @@
 const translations = {
   es: {
     name: "Marc",
-    title: "Desarrollador de Aplicaciones Web Full Stack",
+    title: "Desarrollador Web Junior",
     subtitle:
-      "Especializado en PHP, Laravel y desarrollo de sistemas complejos",
+      "Especializado en PHP y JavaScript",
     "nav-about": "Sobre mí",
     "nav-skills": "Habilidades",
     "nav-projects": "Proyectos",
     "nav-contact": "Contacto",
     "about-title": "Sobre mí",
     "about-subtitle":
-      "Desarrollador apasionado por crear soluciones tecnológicas innovadoras",
+      "Desarrollador junior apasionado por crear soluciones tecnológicas innovadoras",
     "about-text1":
-      "Soy un desarrollador Full Stack especializado en el desarrollo de aplicaciones web modernas y eficientes. Recientemente he completado mis estudios de Desarrollo de Aplicaciones Web (DAW), donde he adquirido una sólida formación en tecnologías tanto de frontend como de backend.",
+      "Soy un desarrollador web junior especializado en PHP y JavaScript. Recientemente he completado mis estudios de Desarrollo de Aplicaciones Web (DAW), donde he adquirido una sólida formación en tecnologías tanto de frontend como de backend.",
     "about-text2":
       "Mi experiencia abarca desde el desarrollo con PHP y Laravel hasta la creación de interfaces dinámicas con JavaScript. Me especializo en el desarrollo de sistemas de gestión complejos, como mi proyecto destacado EduPlanner, un sistema integral de gestión de horarios académicos.",
     "backend-desc": "PHP, Laravel, MySQL, APIs RESTful",
@@ -58,18 +58,18 @@ const translations = {
   },
   ca: {
     name: "Marc",
-    title: "Desenvolupador d'Aplicacions Web Full Stack",
+    title: "Desenvolupador Web Junior",
     subtitle:
-      "Especialitzat en PHP, Laravel i desenvolupament de sistemes complexos",
+      "Especialitzat en PHP i JavaScript",
     "nav-about": "Sobre mi",
     "nav-skills": "Habilitats",
     "nav-projects": "Projectes",
     "nav-contact": "Contacte",
     "about-title": "Sobre mi",
     "about-subtitle":
-      "Desenvolupador apassionat per crear solucions tecnològiques innovadores",
+      "Desenvolupador junior apassionat per crear solucions tecnològiques innovadores",
     "about-text1":
-      "Soc un desenvolupador Full Stack especialitzat en el desenvolupament d'aplicacions web modernes i eficients. Recentment he completat els meus estudis de Desenvolupament d'Aplicacions Web (DAW), on he adquirit una sòlida formació en tecnologies tant de frontend com de backend.",
+      "Soc un desenvolupador web junior especialitzat en PHP i JavaScript. Recentment he completat els meus estudis de Desenvolupament d'Aplicacions Web (DAW), on he adquirit una sòlida formació en tecnologies tant de frontend com de backend.",
     "about-text2":
       "La meva experiència abasta des del desenvolupament amb PHP i Laravel fins a la creació d'interfícies dinàmiques amb JavaScript. M'especialitzo en el desenvolupament de sistemes de gestió complexos, com el meu projecte destacat EduPlanner, un sistema integral de gestió d'horaris acadèmics.",
     "backend-desc": "PHP, Laravel, MySQL, APIs RESTful",
