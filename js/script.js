@@ -58,7 +58,7 @@ const translations = {
   },
   ca: {
     name: "Marc",
-    title: "Desenvolupador Web Junior",
+    title: "Desenvolupador Web Júnior",
     subtitle:
       "Especialitzat en PHP i JavaScript",
     "nav-about": "Sobre mi",
