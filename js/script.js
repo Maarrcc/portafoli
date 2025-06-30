@@ -55,6 +55,25 @@ const translations = {
     "contact-subtitle":
       "Estoy disponible para nuevos proyectos y oportunidades laborales. ¡No dudes en contactarme!",
     location: "Barcelona, España",
+    "project2-subtitle": "Desarrollo de sitio web empresarial con WordPress",
+    "project2-description": "Sitio web corporativo desarrollado con WordPress para TecnoCable JJF. El proyecto incluye optimización SEO, gestión de cookies, gestión de caché con WP Super Cache y un diseño moderno y responsive utilizando herramientas profesionales. Actualmente en fase final de desarrollo, pendiente de contenido multimedia del cliente.",
+    "project2-features": [
+      "Diseño responsive y moderno con Kubio",
+      "Optimización SEO con Yoast SEO",
+      "Gestión de cookies con Compilaz",
+      "Gestión de caché con WP Super Cache",
+      "Integración con redes sociales",
+      "Formularios de contacto optimizados",
+      "Galería de imágenes dinámica"
+    ],
+    "project2-challenges": [
+      "Optimización del rendimiento del sitio",
+      "Implementación de políticas de cookies GDPR",
+      "Configuración avanzada de SEO",
+      "Diseño adaptativo para todo tipo de dispositivos",
+      "Integración de plugins manteniendo el rendimiento"
+    ],
+    "view-live": "Ver Sitio Web",
   },
   ca: {
     name: "Marc",
@@ -111,6 +130,25 @@ const translations = {
     "contact-subtitle":
       "Estic disponible per a nous projectes i oportunitats laborals. ¡No dubtis a contactar-me!",
     location: "Barcelona, Espanya",
+    "project2-subtitle": "Desenvolupament de lloc web empresarial amb WordPress",
+    "project2-description": "Lloc web corporatiu desenvolupat amb WordPress per a TecnoCable JJF. El projecte inclou optimització SEO, gestió de cookies, gestió de memòria cau amb WP Super Cache i un disseny modern i responsive utilitzant eines professionals. Actualment en fase final de desenvolupament, pendent de contingut multimèdia del client.",
+    "project2-features": [
+      "Disseny responsive i modern amb Kubio",
+      "Optimització SEO amb Yoast SEO",
+      "Gestió de cookies amb Compilaz",
+      "Gestió de memòria cau amb WP Super Cache",
+      "Integració amb xarxes socials",
+      "Formularis de contacte optimitzats",
+      "Galeria d'imatges dinàmica"
+    ],
+    "project2-challenges": [
+      "Optimització del rendiment del lloc",
+      "Implementació de polítiques de cookies GDPR",
+      "Configuració avançada de SEO",
+      "Disseny adaptatiu per a tot tipus de dispositius",
+      "Integració de plugins mantenint el rendiment"
+    ],
+    "view-live": "Veure Lloc Web",
   },
 };
 
