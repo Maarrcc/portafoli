@@ -56,7 +56,7 @@ const translations = {
       "Estoy disponible para nuevos proyectos y oportunidades laborales. ¡No dudes en contactarme!",
     location: "Barcelona, España",
     "project2-subtitle": "Desarrollo de sitio web empresarial con WordPress",
-    "project2-description": "Sitio web corporativo desarrollado con WordPress para TecnoCable JJF. El proyecto incluye optimización SEO, gestión de cookies, gestión de caché con WP Super Cache y un diseño moderno y responsive utilizando herramientas profesionales. Actualmente en fase final de desarrollo, pendiente de contenido multimedia del cliente.",
+    "project2-description": "Sitio web corporativo desarrollado con WordPress para TecnoCable JJF. El proyecto incluye optimización SEO, gestión de cookies y un diseño moderno y responsive utilizando herramientas profesionales.",
     "project2-features": [
       "Diseño responsive y moderno con Kubio",
       "Optimización SEO con Yoast SEO",
@@ -131,7 +131,7 @@ const translations = {
       "Estic disponible per a nous projectes i oportunitats laborals. ¡No dubtis a contactar-me!",
     location: "Barcelona, Espanya",
     "project2-subtitle": "Desenvolupament de lloc web empresarial amb WordPress",
-    "project2-description": "Lloc web corporatiu desenvolupat amb WordPress per a TecnoCable JJF. El projecte inclou optimització SEO, gestió de cookies, gestió de memòria cau amb WP Super Cache i un disseny modern i responsive utilitzant eines professionals. Actualment en fase final de desenvolupament, pendent de contingut multimèdia del client.",
+    "project2-description": "Lloc web corporatiu desenvolupat amb WordPress per a TecnoCable JJF. El projecte inclou optimització SEO, gestió de cookies i un disseny modern i responsive utilitzant eines professionals.",
     "project2-features": [
       "Disseny responsive i modern amb Kubio",
       "Optimització SEO amb Yoast SEO",
