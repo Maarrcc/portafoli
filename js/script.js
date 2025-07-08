@@ -154,32 +154,50 @@ const translations = {
 
 let currentLanguage = "es";
 
-function changeLanguage(lang) {
-  currentLanguage = lang;
+// Añadir elemento aria-live para avisos accesibles
+let liveRegion = document.getElementById('aria-live-region');
+if (!liveRegion) {
+  liveRegion = document.createElement('div');
+  liveRegion.id = 'aria-live-region';
+  liveRegion.setAttribute('aria-live', 'polite');
+  liveRegion.setAttribute('role', 'status');
+  liveRegion.style.position = 'absolute';
+  liveRegion.style.left = '-9999px';
+  document.body.appendChild(liveRegion);
+}
 
+function setLanguage(lang) {
+  currentLanguage = lang;
   // Update active button
-  document.querySelectorAll(".lang-btn").forEach((btn) => {
-    btn.classList.remove("active");
+  document.querySelectorAll('.lang-btn').forEach((btn) => {
+    btn.classList.remove('active');
   });
-  document.querySelector(`[data-lang="${lang}"]`).classList.add("active");
+  const btn = document.querySelector(`[data-lang="${lang}"]`);
+  if (btn) btn.classList.add('active');
 
   // Update content
-  document.querySelectorAll("[data-translate]").forEach((element) => {
-    const key = element.getAttribute("data-translate");
+  document.querySelectorAll('[data-translate]').forEach((element) => {
+    const key = element.getAttribute('data-translate');
     if (translations[lang][key]) {
       if (Array.isArray(translations[lang][key])) {
-        // Handle arrays (for lists)
         element.innerHTML = translations[lang][key]
           .map((item) => `<li>${item}</li>`)
-          .join("");
+          .join('');
       } else {
         element.textContent = translations[lang][key];
       }
     }
   });
-
   // Update document language
   document.documentElement.lang = lang;
+  // Guardar preferencia
+  localStorage.setItem('portfolio-lang', lang);
+  // Aviso accesible
+  liveRegion.textContent = lang === 'es' ? 'Idioma cambiado a español' : 'Idioma cambiado a catalán';
+}
+
+function changeLanguage(lang) {
+  setLanguage(lang);
 }
 
 // Smooth scrolling for navigation links
@@ -218,6 +236,9 @@ document
   });
 
 // Initialize page
-document.addEventListener("DOMContentLoaded", function () {
-  changeLanguage("es");
+// Al cargar, usar idioma guardado o español
+
+document.addEventListener('DOMContentLoaded', function () {
+  const savedLang = localStorage.getItem('portfolio-lang') || 'es';
+  setLanguage(savedLang);
 });
